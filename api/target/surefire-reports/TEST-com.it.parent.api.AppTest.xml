@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.it.parent.api.AppTest" time="0.003" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.it.parent.api.AppTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="F:\TEST\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4062574422911844964.tmp"/>
+    <property name="classworlds.conf" value="F:\TEST\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1222019525848581803.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_45/BIN/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_45/BIN/../jre/bin;C:/Program Files/Java/jdk1.8.0_45/BIN/../jre/lib/amd64;D:\app\orcl\product\12.1.0\dbhome_3\bin;D:\app\orcl\product\12.1.0\dbhome_2\bin;D:\app\orcl\product\12.1.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\\;C:\Program Files\Java\jdk1.8.0_45\BIN;C:\Program Files\Java\jdk1.8.0_45\jre\bin;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;%C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;D:\TortoiseSVN\bin;D:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_45\jre\bin;d:\Git\cmd;d:\mongodb-win32-x86_64-2.4.3\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Lua\5.1;C:\Program Files (x86)\Lua\5.1\clibs;C:\Users\Administrator\AppData\Roaming\npm;D:\搜狗高速下载\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,5 +61,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.it.parent.api.AppTest" name="testApp" time="0.003"/>
+  <testcase classname="com.it.parent.api.AppTest" name="testApp" time="0.002"/>
 </testsuite>

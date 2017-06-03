@@ -1,5 +1,9 @@
 package common.utils;
 
+/**
+ * lxr
+ * 
+ */
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -8,7 +12,6 @@ public class CookieUtil {
 
 	/**
 	 * 设置cookie
-	 * @param <HttpServletResponse>
 	 * 
 	 * @param response
 	 * @param name
@@ -18,14 +21,14 @@ public class CookieUtil {
 	 * @param maxAge
 	 *            cookie生命周期 以秒为单位
 	 */
-	public static <HttpServletResponse> void addCookie(HttpServletResponse response, String name,
+	public static void addCookie(HttpServletResponse response, String name,
 			String value, int maxAge) {
 		try {
 			Cookie cookie = new Cookie(name, value);
 			if (maxAge > 0)
 				cookie.setMaxAge(maxAge);
 			cookie.setPath("/");
-			((javax.servlet.http.HttpServletResponse) response).addCookie(cookie);
+			response.addCookie(cookie);
 		} catch (Exception ex) {
 			LoggerUtils.error(CookieUtil.class, "创建Cookies发生异常！", ex);
 		}
